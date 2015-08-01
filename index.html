@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Music History App 1.0</title>
+    <link rel="stylesheet" type="text/css" href="mha-styles.css">
+  </head>
+
+<div class="flex-container">
+    <header>
+      <nav>
+        <ul>
+          <li>View Music</li>|
+          <li><a href="#">Add Music</a></li>|
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+  <div class="flex-item">
+
+    <form action="music-history.html" method="POST">
+      <fieldset class="control">
+        <div class="song-length">
+          <label for="song-length">Song length:</label><br>
+          <input type="range" name="seconds" step="0.5" min="0" max="15">
+        </div>
+        
+        <div class="artist">
+          <label for="artist-list">Artist:</label><br>
+          <select>
+            <option value="john_cage">John Cage</option>
+            <option value="bob_dylan">Bob Dylan</option>
+            <option value="loretta_lynn">Loretta Lynn</option>
+            <option value="townes_vanzandt">Townes Van Zandt</option>
+            <option value="kanye_west">Kanye West</option>
+          </select>
+        </div>
+        
+        <div class="album">
+          <label for="album-list">Album:</label><br> 
+          <select>
+            <option value="433">4'33"</option>
+            <option value="blood_tracks">Blood on the Tracks</option>
+            <option value="vanlearrose">Van Lear Rose</option>
+            <option value="hi-lo-between">Hi, Low, and In-Between</option>
+            <option value="mbdtf">My Beautiful Dark Twisted Fantasy</option>
+          </select>
+        </div>
+        
+        <div>
+          <label for="genre-list">Genre:</label><br><br>
+          <div class="checkbox"><input type="checkbox" name="rock" value="Rock">Rock</div>
+          <div class="checkbox"><input type="checkbox" name="classical" value="Classical">Classical</div>
+          <div class="checkbox"><input type="checkbox" name="pop" value="Pop">Pop</div>
+          <div class="checkbox"><input type="checkbox" name="jazz" value="Jazz">Jazz</div>
+          <div class="checkbox"><input type="checkbox" name="blues" value="Blues">Blues</div>
+          <div class="checkbox"><input type="checkbox" name="hip hop" value="Hip Hop">Hip Hop</div>
+        </div>
+        
+        <div class="button-div">
+          <input type="submit" value="Filter" class="filter-button">
+        </div>
+      
+      </fieldset>
+    </form>
+  </div>
+</div>
+  <div id="main">
+    
+  </div>
+<script src="js-101.js"></script>
+</body>
+      
+  
+        
+        
+        
+      
+        
+        
+  
+      
+  
+        
+        
+        
+      
+        
+        
+  
