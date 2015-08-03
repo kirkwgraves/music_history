@@ -12,13 +12,13 @@
   -webkit-flex-wrap: wrap;
 }
 
-.flex-container > header { 
+/*.flex-container > header { 
   flex: 1 100%; 
-}
+} */
 
 .flex-item {
   background: #4DD7FA;
-  margin: 9px;
+  margin: 10px;
   padding: 10px;
   width: 100px;
   border: 2px solid black;
@@ -28,9 +28,13 @@
 
 
 .header {
+  box-sizing: border-box;
+  border: 2px solid black;
+  position: fixed;
+  width: 66.75%;
   background: #FFB4B0;
   height: 10%;
-  padding: 6;  
+  padding: 5 7 7;  
 }
 
 /*nav {
@@ -53,7 +57,8 @@ nav ul li {
 
 .form {
   flex-grow: 1;
-  margin-top: 0;
+  margin-top: 80px;
+  margin-left: -1px;
 }
 
 
@@ -99,7 +104,7 @@ nav ul li {
 .primary {
   flex-grow: 4;
   background-color: #FEFAC0;
-  margin-top: 0;
+  margin-top: 80px;
 }
 
 .primary :nth-child(2n) {
@@ -117,7 +122,6 @@ nav ul li {
 }
 
 body {
-  margin-top: 35px;
   margin-left: 200px;
   margin-right: 200px; 
 }
