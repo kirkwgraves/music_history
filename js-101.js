@@ -17,8 +17,6 @@ for (i = 0; i < songs.length; i++) {
 	currentSong = currentSong.replace("(", "");
 	currentSong = currentSong.replace("!", "");
 	currentSong = currentSong.replace(">", "-");
-	outputEl.innerHTML += "<ol>";
-  	outputEl.innerHTML += "<li>" + currentSong + "</li>";
-  	outputEl.innerHTML += "</ol>";
+  	outputEl.innerHTML += "<div>" + currentSong + "</div>";
 }
 
